@@ -35,3 +35,45 @@ a {
     text-decoration: none;
     color: #f9faf8;
 }
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    width: 350px;
+    margin-left: 100px;
+}
+
+.placeholder {
+    background-color: lightgrey;
+    height: 200px;
+    width: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20vw;
+    margin-bottom: 100px;
+}
+
+.hero-subtext {
+    width: 260px;
+    margin-left: 100px;
+}
+
+.signup1 {
+    background-color: #3882f6;
+    margin-top: 50px;
+    margin-left: 100px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
