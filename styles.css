@@ -63,6 +63,10 @@ a {
     margin-right: 10vw;
 }
 
+p {
+    font-size: 1.5vw;
+}
+
 .hero-subtext {
     width: 260px;
     margin-left: 100px;
@@ -73,26 +77,34 @@ a {
     margin-top: 50px;
     margin-left: 100px;
     border: none;
-    width: 100px;
-    height: 30px;
+    width: 10vw;
+    height: 2.5vw;
     border-radius: 10px;
     margin-bottom: 100px;
+    color: #e5e7eb;
 }
 
 .info {
-    font-size: 36px;
+    font-size: 3vw;
     width: 100vw;
     color: #1f2937;
     font-weight: bolder;
     justify-content: center;
+    text-align: center;
     margin-top: 50px;
-    margin-left: 35vw;
 }
 
 .image-container {
     display: flex;
     gap: 5vw;
     justify-content: center;
+}
+
+.image-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .image {
@@ -114,4 +126,69 @@ a {
     gap: 5vw;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 25vw;
+    background-color: #e5e7eb;
+    margin-top: 100px;
+}
 
+.quote-text {
+    color: #1f2937;
+    font-size: 2.6vw;
+    font-weight: lighter;
+    width: 60vw;
+}
+
+.author {
+    margin-left: 50vw;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.signup {
+    display: flex;
+    width: 70%;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 6vw;
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+    margin-top: 4vw;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 3vw;
+    font-size: 1.5vw;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5vw;
+    font-size: 2vw;
+    text-align: left;
+}
+.signup2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    width: 10vw;
+    height: 3vw;
+    margin-left: 50vw;
+    margin-bottom: 2vw;
+    margin-top: 1.5vw;
+    margin-right: 1vw;
+    background-color: #3882f6;
+    border: 2px solid white;
+}
